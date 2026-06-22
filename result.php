@@ -209,12 +209,15 @@
         table tr:hover td { background: #FBFAFF; }
     </style>
 </head>
+
+<a href="index.php">home</a>
+
 <body>
     <h1>ผลลัพธ์การแปลงลิตรเป็นแกลลอน</h1>
        <?php
         $lit = $_POST["lit"];
         
-        echo $lit  . " 3.785"  . " = " . $lit * 3.785. "<br>";
+        echo $lit ."*".  " 3.785"  . " = " . $lit * 3.785. "<br>";
     ?>
 </body>
 </html>
